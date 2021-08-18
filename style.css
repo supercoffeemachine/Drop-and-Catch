@@ -1,0 +1,103 @@
+html,                 /*life points and score*/
+body {
+
+    background-image: url("Image/testimage2.png"); 
+    background-size: 400px;
+    background-repeat: no-repeat;
+  }
+  
+.heading{
+     text-align: left;
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      color:black;
+      margin-bottom: 0%;
+  }
+
+.desc{
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(41, 16, 182);
+    margin-bottom: 0%;
+
+
+}
+
+.menu{
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(180, 54, 31);
+    margin-bottom: 0%;
+
+}
+  
+  .button_start {
+      display:inline-flex;
+      align-items: center;
+      background: white;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: small;
+      font-weight: 300;
+      cursor: pointer; 
+      margin-left: 100px;
+      display: flex;
+  }
+  
+  .button_music {
+    display:inline-flex;
+      align-items: center;
+      background: rgb(47, 185, 42);
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: small;
+      font-weight: 300;
+      cursor: pointer; 
+      margin-left: 300px;
+      display: flex;
+  }
+  
+#basket{
+  height: 100px;
+  width: 70px;
+  position: absolute;
+  bottom: 5px;
+  background: url("Image/basket.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  z-index: 11;
+  }
+
+
+.items { 
+position: absolute;
+top: 18%;
+height: 7%;
+width: 5%;
+background: url("Image/grapes.png");
+background-size: cover;
+background-repeat: no-repeat;
+z-index: 3 ;
+
+}
+
+.button_restart {
+    display:inline-flex;
+    align-items: center;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer; 
+    margin-left: 100px;
+    display: flex;
+}
